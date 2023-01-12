@@ -1,10 +1,10 @@
-# composer-package-template
+# php-api-client-template
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![CircleCI](https://circleci.com/gh/OnrampLab/composer-package-template.svg?style=shield)](https://circleci.com/gh/OnrampLab/composer-package-template)
 [![Total Downloads](https://img.shields.io/packagist/dt/onramplab/composer-package-template.svg?style=flat-square)](https://packagist.org/packages/onramplab/composer-package-template)
 
-If you are trying to create a new PHP Composer package, whether it is going to be submitted to packagist.org or just to exist in your Github account, this template package of files will surely help you make the process a lot easier and faster.
+If you are trying to create a new PHP API client package, whether it is going to be submitted to packagist.org or just to exist in your Github account, this template package of files will surely help you make the process a lot easier and faster.
 
 ## Requirements
 
@@ -23,7 +23,7 @@ If you are trying to create a new PHP Composer package, whether it is going to b
 ## Installation
 
 ```bash
-composer create-project onramplab/composer-package-template yourproject
+composer create-project onramplab/php-api-client-template your-project
 ```
 
 This will create a basic project structure for you:
