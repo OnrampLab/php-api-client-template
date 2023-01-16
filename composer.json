@@ -1,6 +1,6 @@
 {
-    "name": "onramplab/composer-package-template",
-    "description": "An composer template",
+    "name": "onramplab/php-api-client-template",
+    "description": "A PHP API client template",
     "type": "library",
     "license": "MIT",
     "keywords": [
@@ -22,7 +22,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "onramplab/php-api-client": "^2.0"
     },
     "require-dev": {
         "mockery/mockery": "^1.5",
@@ -38,7 +39,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Onramplab\\ComposerPackageTemplate\\": "src/"
+            "OnrampLab\\PhpApiClientTemplate\\": "src/"
         }
     },
     "extra": {
